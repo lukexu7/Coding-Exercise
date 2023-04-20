@@ -1,0 +1,17 @@
+[0m2021.07.23 11:01:32 INFO  Started: Metals version 0.10.5 in workspace 'E:\codingExercise\java\Spring+MyBaits+SpringMVC´ÓÁã¿ªÊ¼Ñ§\chapter08\chapter08' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.23 11:01:32 INFO  time: initialize in 0.65s[0m
+[0m2021.07.23 11:01:34 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.23 11:01:34 WARN  no build tool detected in workspace 'E:\codingExercise\java\Spring+MyBaits+SpringMVC´ÓÁã¿ªÊ¼Ñ§\chapter08\chapter08'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.23 11:03:44 INFO  shutting down Metals[0m
+[0m2021.07.23 14:06:58 INFO  Started: Metals version 0.10.5 in workspace 'E:\codingExercise\java\Spring+MyBaits+SpringMVC´ÓÁã¿ªÊ¼Ñ§\chapter08' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.23 14:06:59 INFO  time: initialize in 0.78s[0m
+[0m2021.07.23 14:07:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.23 14:07:02 WARN  no build tool detected in workspace 'E:\codingExercise\java\Spring+MyBaits+SpringMVC´ÓÁã¿ªÊ¼Ñ§\chapter08'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+ÆßÔÂ 23, 2021 2:08:46 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTrace
+[0m2021.07.24 10:30:32 INFO  Started: Metals version 0.10.5 in workspace 'E:\codingExercise\java\Spring+MyBaits+SpringMVC´ÓÁã¿ªÊ¼Ñ§\chapter08' for client Visual Studio Code 1.58.2.[0m
+[0m2021.07.24 10:30:33 INFO  time: initialize in 0.76s[0m
+[0m2021.07.24 10:30:38 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.24 10:30:38 WARN  no build tool detected in workspace 'E:\codingExercise\java\Spring+MyBaits+SpringMVC´ÓÁã¿ªÊ¼Ñ§\chapter08'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+ÆßÔÂ 24, 2021 5:03:26 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTrace

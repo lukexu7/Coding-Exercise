@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Spring+MyBaits+SpringMVC从零开始学/chapter08/lib/junit-4.13.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring+MyBaits+SpringMVC从零开始学/chapter08/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring+MyBaits+SpringMVC从零开始学/chapter08/lib/mysql-connector-java-8.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Spring+MyBaits+SpringMVC从零开始学/chapter08/lib/mybatis-3.5.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

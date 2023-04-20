@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="UserDao" class="com.ssm.ioc_di.UserDaoImpl" />
+<bean id="UserService" class="com.ssm.ioc_di.UserServiceImpl" >
+<property name="UserDao" ref="UserDao"/>
+</bean>
+<bean id="bean1" class="com.ssm.Bean1"/>
+<bean name="bean2" class="com.ssm.Bean2"/>
+</beans>

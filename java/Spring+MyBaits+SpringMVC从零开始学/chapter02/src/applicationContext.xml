@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="scope" class="com.ssm.scope.Scope" scope="prototype"/>
+<bean id="user1" class="com.ssm.assemble.User">
+<constructor-arg index="0" value="zhagnsan"/>
+<constructor-arg index="1" value="11111"/>
+<constructor-arg index="2">
+<list>
+<value>"constructvalu1"</value>
+<value>"constructvalue2"</value>
+</list>
+</constructor-arg>
+</bean>
+<bean id="user2" class="com.ssm.assemble.User">
+<property name="userName" value="lisi"></property>
+<property name="password" value="123123"></property>
+<property name="list">
+<list>
+<value>"listvalu1"</value>
+<value>"listvalue2"</value>
+</list>
+</property>
+</bean>
+</beans>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssm.mapper.UserMapper">
+
+<select id="findUserById" parameterType="Integer" resultType="com.ssm.po.User">
+select * from t_user where id = #{id}
+</select>
+
+<select id="findUserByName" parameterType="String" resultType="com.ssm.po.User">
+select * from t_user where username like '%${value}%'
+</select>
+
+<insert id="addUser" parameterType="com.ssm.po.User">
+
+insert into t_user(username,jobs,phone) values(#{username},#{jobs},#{phone})
+</insert>
+
+<update id="updateUser" parameterType="com.ssm.po.User">
+update t_user set username=#{username},jobs=#{jobs},phone=#{phone} where id=#{id}
+</update>
+
+<delete id="deleteUser" parameterType="Integer">
+delete from t_user where id = #{id}
+</delete>
+
+<!-- ify元素使用-->
+<select id="findUserByNameAndJobs" parameterType="com.ssm.po.User" resultType="com.ssm.po.User">
+select * from t_user 
+<where>
+<if test="username != null and username != ' '">
+and useranme like concat ('%',# {username},'%')
+</if>
+<if test="jobs != null and jobs != ' '">
+and jobs = # {jobs}
+</if>
+</where>
+</select>
+
+<!--<choos><when><otherwise>-->
+<select id="findUserByNameOrJobs" parameterType="com.ssm.po.User" resultType="com.ssm.po.User">
+select * from t_user where 1=1 
+<choose>
+  <when test="username != null and username != ' '">
+           and username like concat ('%',#{username},'%')
+  </when>
+  <when test="jobs != null and jobs != ''">
+  and jobs = #{jobs}
+  </when>
+  <otherwise>
+  and phone is not null
+  </otherwise>
+</choose>
+</select>
+</mapper>
