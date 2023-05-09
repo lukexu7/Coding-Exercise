@@ -7,6 +7,10 @@ var name = "bobby"
 var age = 10
 var ok bool
 
+var (
+
+)
+
 func main() {
 
 	//1.先定义变量后使用
@@ -24,4 +28,10 @@ func main() {
 	sex := 1
 
 	fmt.Println(sex)
+
+	//2.多变量
+
+	var user1, user2 
+
+
 }
