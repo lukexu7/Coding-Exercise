@@ -7,9 +7,7 @@ var name = "bobby"
 var age = 10
 var ok bool
 
-var (
-
-)
+var ()
 
 func main() {
 
@@ -31,7 +29,7 @@ func main() {
 
 	//2.多变量
 
-	var user1, user2 
-
+	var user1, user2, user3 = "bobby", 1, "bobby3"
+	fmt.Println(user1, user2, user3)
 
 }
