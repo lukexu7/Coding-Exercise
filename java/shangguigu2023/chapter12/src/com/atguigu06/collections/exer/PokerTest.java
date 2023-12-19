@@ -13,6 +13,5 @@ package com.atguigu06.collections.exer;
 
 public class PokerTest {
 
-    String
 
 }
