@@ -341,3 +341,24 @@ CTestTestfile.cmake
 
 #folder============================
 .vs
+java/shangguigu2023/chapter04/.gitignore
+java/shangguigu2023/project01/.gitignore
+java/shangguigu2023/chapter08/.gitignore
+java/shangguigu2023/chapter07/.gitignore
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.tlog/CL.command.1.tlog
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.tlog/CL.read.1.tlog
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.exe.recipe
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.ilk
+C++/C++学习教程/05_流程控制语句/x64/Debug/vc143.idb
+C++/C++学习教程/05_流程控制语句/x64/Debug/vc143.pdb
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.tlog/05_流程控制语句.lastbuildstate
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.tlog/CL.write.1.tlog
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.tlog/link.command.1.tlog
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.tlog/link.read.1.tlog
+C++/C++学习教程/05_流程控制语句/x64/Debug/05_流程控制语句.tlog/link.write.1.tlog
+C++/C++学习教程/x64/Debug/05_流程控制语句.pdb
+java/shangguigu2023/chapter05/.gitignore
+java/shangguigu2023/chapter15/hello_copy.txt
+java/shangguigu2023/chapter15/hellocopy1.txt
+java/shangguigu2023/chapter15/info.txt
+.gitignore
