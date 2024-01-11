@@ -83,5 +83,8 @@ public class ObjectInputOutputStreamTest {
         System.out.println(person);
 
         ois.close();
+
+        PrintStream printStream = new PrintStream();
+
     }
 }
