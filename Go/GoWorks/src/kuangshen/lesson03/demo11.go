@@ -6,7 +6,7 @@ func main() {
 
 	a := 10
 	fmt.Printf("%T\n", a)
-	b := [4]int{1, 2, 3, 4}
+	//b := [4]int{1, 2, 3, 4}
 	fmt.Printf("%T")
 
 }
