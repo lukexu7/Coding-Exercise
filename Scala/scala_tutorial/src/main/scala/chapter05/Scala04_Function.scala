@@ -46,7 +46,7 @@ object Scala04_Function {
 
   fun3("fk you")
   //参数只有一个时，也不能省略小括号。方法可以省略作为运算符。
-  fun3 "haha"
+
 
   def fun4(name:String):String={
     return "name"+name
