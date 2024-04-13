@@ -1,4 +1,4 @@
-package chapter06
+
 
 object Scala11_Object_Abstract {
 
