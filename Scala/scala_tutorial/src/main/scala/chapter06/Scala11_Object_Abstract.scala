@@ -1,13 +1,10 @@
 package chapter06
 
-object Scala09_Object_Instance_Method_2 {
+object Scala11_Object_Abstract {
 
   def main(args: Array[String]): Unit = {
 
 
-    val user = new User()
-    val user1 = new User("hahaha")
-    val user2 = new User(12)
 
 
 
@@ -17,27 +14,24 @@ object Scala09_Object_Instance_Method_2 {
 
   }
 
-  class User(){
+  abstract class User{
 
-    println("111")
-    def this(name:String)= {
-      this()
-      println("2222")
+    def test():Unit
+
+  }
+
+  class ChildUser extends User{
+
+    def test():Unit={
+
     }
-    println("33333")
-
-    def this(age:Int) = {
-      this()
-      println("44444")
-    }
-
-
-
 
 
   }
 
-//  class Us
+
+
+
 
 
 
