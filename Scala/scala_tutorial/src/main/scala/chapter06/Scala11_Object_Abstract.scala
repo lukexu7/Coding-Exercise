@@ -4,13 +4,7 @@ object Scala11_Object_Abstract {
 
   def main(args: Array[String]): Unit = {
 
-
-
-
-
-
-
-
+    println("hello world")
 
   }
 
