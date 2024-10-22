@@ -1,0 +1,109 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala_tutorial-test",
+        "directory": "D:\\个人\\编程\\git\\coding-exercise\\Scala\\scala_tutorial",
+        "workspaceDir": "D:\\个人\\编程\\git\\coding-exercise\\Scala\\scala_tutorial",
+        "sources": [
+            "D:\\个人\\编程\\git\\coding-exercise\\Scala\\scala_tutorial\\src\\test\\java"
+        ],
+        "dependencies": [
+            "scala_tutorial"
+        ],
+        "classpath": [
+            "D:\\个人\\编程\\git\\coding-exercise\\Scala\\scala_tutorial\\target\\test-classes",
+            "D:\\个人\\编程\\git\\coding-exercise\\Scala\\scala_tutorial\\target\\classes"
+        ],
+        "out": "D:\\个人\\编程\\git\\coding-exercise\\Scala\\scala_tutorial\\target",
+        "classesDir": "D:\\个人\\编程\\git\\coding-exercise\\Scala\\scala_tutorial\\target\\test-classes",
+        "resources": [
+            "D:\\个人\\编程\\git\\coding-exercise\\Scala\\scala_tutorial\\src\\test\\resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "8",
+                "-source",
+                "8",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "D:\\Dev\\Env\\Java\\jdk1.8.0_211\\jre",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

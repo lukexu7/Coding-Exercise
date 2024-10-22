@@ -12,26 +12,31 @@ package chapter05
  */
 
 
-object Scala07_Function_Hell3 {
+object Scala07_Function_Hell_5_Test {
 
   def main(args: Array[String]): Unit = {
 
 
-    //将函数对象作为参数使用
-    def fun():Unit={
-      println("test")
+    //注释
+
+    def calc(x:Int, f:(Int,Int)=>Int, y:Int):Int={
+
+      f(x,y)
     }
 
-    def test(f:()=>Unit):Unit={
+    def multiply(x:Int,y:Int):Int={
+      x*y
+    }
 
-      f()
+
+    println(calc(5, multiply, 5))
+
+    println(println(calc(5, _ / _, 2)))
+
 
 
     }
 
-    val f = fun _
-
-    test(f)
 
 
   }
@@ -43,4 +48,4 @@ object Scala07_Function_Hell3 {
   
 
 
-}
+

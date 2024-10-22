@@ -12,37 +12,31 @@ package chapter05
  */
 
 
-object Scala07_Function_Hell_5_Test {
+object Scala07_Function_Hell_6 {
 
   def main(args: Array[String]): Unit = {
 
 
-    //注释
+    // TODO
 
-    def calc(x:Int, f:(Int,Int)=>Int, y:Int):Int={
+    def outer()={
+      def inner():Unit={
 
-      f(x,y)
+        println("inner")
+
+      }
+      inner _
     }
 
-    def multiply(x:Int,y:Int):Int={
-      x*y
-    }
-
-
-    println(calc(5, multiply, 5))
-
-    println(println(calc(5, _ / _, 2)))
-
-
-
-    }
-
+    val f= outer()
+    f()
+    println(f())
 
 
   }
 
 
-
+}
 
 
   

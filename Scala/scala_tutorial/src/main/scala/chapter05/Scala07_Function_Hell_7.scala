@@ -12,7 +12,7 @@ package chapter05
  */
 
 
-object Scala07_Function_Hell_6 {
+object Scala07_Function_Hell_7 {
 
   def main(args: Array[String]): Unit = {
 
@@ -28,9 +28,10 @@ object Scala07_Function_Hell_6 {
       inner _
     }
 
-    val f= outer()
-    f()
-    println(f())
+//    val f= outer()
+//    f()
+//    println(f())
+    
 
 
   }

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.xzy;
+package flink.examples.datastream;
 
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
